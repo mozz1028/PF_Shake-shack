@@ -541,9 +541,11 @@ button img{
     left: 50%;
     transform: translateX(-50%);
     display: none;
+    width: 260px;
+    
 }
 .con3 .track .menu{
-    display: flex
+    display: flex;
 }
 .con3 .track .box{
     text-align: center;
@@ -664,7 +666,9 @@ button img{
 }
 .con3 .track .menu5{
     position: relative;
-    top: -15px;
+    left: 0;
+    top: -30px;
+    left: -30px;
     width: 100%;
     justify-content: center;
 }
@@ -673,6 +677,11 @@ button img{
     margin-top: 30px;
     padding: unset;
     font-weight: 500;
+}
+.con3 .menu5 p{
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
 }
 .con3 .track .menu5 .img_box{
     height: unset;
@@ -1134,6 +1143,12 @@ footer .f_ul li::after{
     .subcon3wrap{
         z-index: 2;
     }
+    .con3 .track{
+        width: 350px;
+    }
+    .con3 .track .menu5{
+        left: 5px;
+    }
 
 }
 
@@ -1385,7 +1400,9 @@ footer .f_ul li::after{
         width: 340px;
     }
     .con3 .menu5 p{
+        width: 340px;
         font-size: 17px;
+        margin-left: unset;
     }
     .con3 .track .menu5 .box{
         left: 44%;
@@ -1517,7 +1534,7 @@ footer .f_ul li::after{
         width: 42%;
     }
     .con3 .track {
-        width: 750px;
+        width: 800px;
     }
     .con3 .track .box{
         width: 280px;
@@ -1830,7 +1847,7 @@ h2 , h3{
     width: 95%;
 }
 .con3 .track{
-    width: 880px;
+    width: 870px;
     justify-content: center;
 }
 .con3 .track .box{
@@ -1843,7 +1860,9 @@ h2 , h3{
     font-size: 13px;
     margin: 0 auto;
 }
-
+.con3 .track .menu5{
+    top: -17px;
+}
 .con3 .track .menu5 .img_box img{
     border-start-end-radius: 0;
     border-end-end-radius: 0;
@@ -1867,12 +1886,10 @@ h2 , h3{
     color: #fff;
 }
 .con3 .track .menu5 .text p{
-    width: 58%;
-    font-size: 17px;
+    width: 81%;
+    font-size: 15px;
 }
-.con3 .track .menu5 .text p.call{
-    margin-top: 10px;
-}
+
 .menu5 .box{
     display: flex;
 }
